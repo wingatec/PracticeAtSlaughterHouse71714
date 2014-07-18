@@ -13,7 +13,25 @@ namespace ConsoleApplication4
 
             //create a sentence and reverse it in the console
 
-            var words = new List<string>() {See, if, you, can, print, this, backwards};
+
+            var sentence = new List<string>() { "Print", "this", "backwards" };
+
+            foreach (var item in sentence) { Console.Write(item+" "); }
+
+            sentence.Reverse();
+
+            Console.WriteLine();
+
+            foreach (var item in sentence) { Console.Write(item + " "); }
+                
+         
+            
+
+           // Console.WriteLine(sentence);
+            Console.ReadLine();
+
+
+
 
 
         }
